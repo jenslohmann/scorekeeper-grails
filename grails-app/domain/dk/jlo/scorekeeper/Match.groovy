@@ -12,4 +12,10 @@ class Match {
     }
     static constraints = {
     }
+
+    @Override
+    String toString() {
+        // Assumes foosball match
+        "${score} - "
+    }
 }
